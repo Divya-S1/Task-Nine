@@ -1,0 +1,9 @@
+/* Style for the image */
+#myImage {
+    transition: opacity 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* On hover, make the image disappear by changing opacity */
+#myImage:hover {
+    opacity: 0; /* This will make the image invisible */
+}
